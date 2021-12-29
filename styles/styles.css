@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+:root {
+  --main-violet: hsl(257, 40%, 49%);
+  --main-magenta: hsl(300, 69%, 71%);
+}
+
+body {
+  background-color: #674baf;
+  margin: 0;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  color: white;
+  max-width: 100%;
+  width: 1200px;
+}
+
+.container header img {
+  max-width: 100%;
+  margin-bottom: 80px;
+}
+
+.container .content {
+  margin: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .content .illustration img {
+  min-width: 400px;
+  max-width: 100%;
+}
+
+.container .content .text {
+  max-width: 500px;
+  padding: 50px;
+}
+
+.container .content .text h1 {
+  font-family: 'Poppins';
+  margin-bottom: 20px;
+  font-size: 34px;
+}
+
+.container .content .text p {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+.container .content .text button {
+  margin-top: 5px;
+  color: var(--main-violet);
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 16px;
+  background-color: white;
+  padding: 15px 60px;
+  border-radius: 40px;
+  border: none;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+@media (max-width: 830px) {
+  .container header img {
+    max-width: 50%;
+    height: auto;
+  }
+  .container .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .container .content .illustration img {
+    max-width: 400px;
+    min-width: 200px;
+  }
+  .container .content .text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
