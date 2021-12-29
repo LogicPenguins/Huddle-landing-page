@@ -2,8 +2,8 @@ Pictures of the finished designs:
 
 # Desktop #
 
-[text](url)
+[Desktop](design/desktopfinished.png)
 
 # Mobile #
 
-[text](url)
+[Mobile](design/mobilefinished.png)
